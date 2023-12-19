@@ -10,7 +10,7 @@ msgstr ""
 "Last-Translator: equqe <oaouzc@gmail.com>\n"
 "Language-Team: Russian <oaouzc@gmail.com>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=cp1251\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: pygettext.py 1.5\n"
 

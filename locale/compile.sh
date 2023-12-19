@@ -14,4 +14,4 @@ fi
 
 
 compile ru_RU
-compile en_GB
+compile en_US

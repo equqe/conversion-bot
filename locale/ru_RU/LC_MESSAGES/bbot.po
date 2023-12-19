@@ -1,0 +1,176 @@
+# telegram bot to convert images.
+# Copyright equqe (C) 2023
+# equqe <oaouzc@gmail.com>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: conv_bot 0.1\n"
+"POT-Creation-Date: 2023-12-13 20:28+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: equqe <oaouzc@gmail.com>\n"
+"Language-Team: Russian <oaouzc@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=cp1251\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: bot.py:24
+msgid "get info about bot"
+msgstr "посмотреть инфо о боте"
+
+#: bot.py:25
+msgid "to resize an image"
+msgstr "редактировать размер фото"
+
+#: bot.py:26
+msgid "to remove image background"
+msgstr "удалить фон с фото"
+
+#: bot.py:27
+msgid "change locale"
+msgstr "поменять язык"
+
+#: bot.py:28
+msgid "cancel current step"
+msgstr "остановить выполнение текущей команды"
+
+#: handlers.py:52
+msgid ""
+"hi!\n"
+"this is a bot that can help you with editing a picture to telegram sticker format OR editing by picking a custom resolution.\n"
+"you can create your pack with official bot @Stickers."
+msgstr ""
+"привет!\n"
+"этот бот может конвертировать фото в нужный размер или формат для создания телеграм стикеров.\n"
+"создать пак можно через официального бота @Stickers."
+
+#: handlers.py:57
+msgid ""
+"<b>sticker format requirements from @Stickers:</b>\n"
+"\n"
+"<i>The image file should be in PNG or WEBP format, with a transparent background(optionally) and must fit into a 512x512 square (each side must be greater than or equal to 512px).</i>\n"
+"\n"
+"you can take a look at command list, get a project github link and view some additional info about project with /help command."
+msgstr ""
+"<b>нужный формат фото для создания стикера в @Stickers:</b>\n"
+"\n"
+"<i>фото должно быть в формате .PNG или .WEBP, с прозрачным фоном(опционально) и должно помещаться в квадрат 512х512(каждая из сторон должна быть больше или равна 512px).</i>\n"
+"\n"
+"вы можете посмотреть на список доступных команд, проект на гитхабе и прочую дополнительную информацию через команду /help."
+
+#: handlers.py:70
+msgid ""
+"<b>INFO</b>\n"
+"\n"
+"<b>available commands</b>\n"
+"/help — to get info about bot(commands, q&a, author)\n"
+"/resize — to resize an image. the command has few options: 512*512(sticker), 100*100(sticker pack cover) and custom(max 5000*5000).\n"
+"/rembg — to remove image background\n"
+"/lang — to change a locale(ru/eng)\n"
+"\n"
+"<b>sticker format requirements from @Stickers</b>\n"
+"The image file should be in PNG or WEBP format with a transparent background(optionally) and must fit into a 512x512 square (one of the sides must be 512px and the other 512px or less).\n"
+"\n"
+"<b>about code</b>\n"
+"you can take a look at bot's code on github: https://github.com/equqe/conversion-bot\n"
+"\n"
+"<b>about project & author</b>\n"
+"this is a open-source project.\n"
+"\n"
+"if you have any ideas, you can message me on tg(@html_F5F5F5)\n"
+"OR do a commit on github to make code work and look better if you want.\n"
+"\n"
+"if bot works INCORRECTLY, feel free to message me too."
+msgstr ""
+"<b>ИНФО</b>\n"
+"\n"
+"<b>доступные команды</b>\n"
+"/help — информация о боте(команды, q&a, автор)\n"
+"/resize — отредактировать размер фото. у команды есть несколько опций: 512*512(стикер), 100*100(обложка стикерпака) и кастом(макс 5000*5000, мин 1*1).\n"
+"/rembg — удалить фон с фото\n"
+"/lang — поменять язык(ru/eng)\n"
+"\n"
+"<b>нужный формат фото для создания стикера в @Stickers:</b>\n"
+"фото должно быть в формате .PNG или .WEBP с прозрачным фоном(опционально) и должно помещаться в квадрат 512х512(каждая из сторон должна быть больше или равна 512px).\n"
+"\n"
+"<b>о коде</b>\n"
+"вы можете посмотреть на код проекта на гитхабе: https://github.com/equqe/conversion-bot\n"
+"\n"
+"<b>о проекте и о авторе</b>\n"
+"это опенсорс проект.\n"
+"\n"
+"если у вас есть какие-то идеи, пишите мне в тг(@html_F5F5F5)\n"
+"или сделайте коммит, если хотите сделать код лучше.\n"
+"\n"
+"если бот работает неправильно, напишите мне!"
+
+#: handlers.py:100
+msgid "send the photo to remove its background!"
+msgstr "отправьте фото, чтобы удалить с него фон!"
+
+#: handlers.py:117
+msgid "select one resolution below:"
+msgstr "выберите одно из разрешений снизу:"
+
+#: handlers.py:125
+msgid ""
+"okay! you chose 512*512.\n"
+"now send me a picture"
+msgstr ""
+"отлично, вы выбрали 512*512.\n"
+"теперь отправьте мне фото"
+
+#: handlers.py:130
+msgid ""
+"okay! you chose 100*100.\n"
+"now send me a picture\n"
+"\n"
+"<i>remark: results might look kinda cursed, so i recommend to crop an image to square-like form, because 100*100 is a square.\n"
+"otherwise your image will be shrank</i>"
+msgstr ""
+"отлично, вы выбрали 100*100.\n"
+"теперь отправьте мне фото\n"
+"\n"
+"<i>важная ремарка: результат может выглядеть нелепо, поэтому я рекомендую отправлять фото с околоквадратным разрешением, ведь 100*100 - квадрат.\n"
+"или же фото будет сжато по одной из сторон</i>"
+
+#: handlers.py:140
+msgid ""
+"okay! you chose custom size.\n"
+"now send me size in pixels. you send it in 'width height' format(e.g. 1920 1080. limits: MIN 1 1. MAX 5000 5000)"
+msgstr ""
+"отлично! вы выбрали кастом.\n"
+"теперь отправьте мне разрешение в пикселях. отправляйте его в формате 'ширина, высота'(например 1920 1080. лимиты: мин 1 1. макс 5000 5000)"
+
+#: handlers.py:175
+msgid "you did something wrong.."
+msgstr "вы что-то сделали не так."
+
+#: handlers.py:177
+msgid "out of range!"
+msgstr "числа выходят за лимит!"
+
+#: handlers.py:179
+msgid " send the photo you want to resize"
+msgstr " отправьте фото, разрешение которого вы хотите отредактировать"
+
+#: handlers.py:179
+msgid "the custom size is "
+msgstr "кастомное разрешение: "
+
+#: handlers.py:205
+msgid "select the language:"
+msgstr "выберите язык:"
+
+#: handlers.py:225
+msgid ""
+"command canceled.\n"
+"you can use /help to take a look at command list"
+msgstr ""
+"выполнение команды прервано.\n"
+"вы можете использовать /help, чтобы посмотреть список доступных команд"
+
+#: handlers.py:228
+msgid "no commands to cancel!"
+msgstr "никакие команды не выполняются!"

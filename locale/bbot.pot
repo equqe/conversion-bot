@@ -1,0 +1,137 @@
+# telegram bot to convert images.
+# Copyright equqe (C) 2023
+# equqe <oaouzc@gmail.com>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: conv_bot 0.1\n"
+"POT-Creation-Date: 2023-12-13 20:28+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: equqe <oaouzc@gmail.com>\n"
+"Language-Team: Russian <oaouzc@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=cp1251\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: bot.py:24
+msgid "get info about bot"
+msgstr ""
+
+#: bot.py:25
+msgid "to resize an image"
+msgstr ""
+
+#: bot.py:26
+msgid "to remove image background"
+msgstr ""
+
+#: bot.py:27
+msgid "change locale"
+msgstr ""
+
+#: bot.py:28
+msgid "cancel current step"
+msgstr ""
+
+#: handlers.py:53
+msgid ""
+"hi!\n"
+"this is a bot that can help you with editing a picture to telegram sticker format OR editing by picking a custom resolution.\n"
+"you can create your pack with official bot @Stickers."
+msgstr ""
+
+#: handlers.py:58
+msgid ""
+"<b>sticker format requirements from @Stickers:</b>\n"
+"\n"
+"<i>The image file should be in PNG or WEBP format, with a transparent background(optionally) and must fit into a 512x512 square (each side must be greater than or equal to 512px).</i>\n"
+"\n"
+"you can take a look at command list, get a project github link and view some additional info about project with /help command."
+msgstr ""
+
+#: handlers.py:72
+msgid ""
+"<b>INFO</b>\n"
+"\n"
+"<b>available commands</b>\n"
+"/help — to get info about bot(commands, q&a, author)\n"
+"/resize — to resize an image. the command has few options: 512*512(sticker), 100*100(sticker pack cover) and custom(max 5000*5000).\n"
+"/rembg — to remove image background\n"
+"/lang — to change a locale(ru/eng)\n"
+"\n"
+"<b>sticker format requirements from @Stickers</b>\n"
+"The image file should be in PNG or WEBP format with a transparent background(optionally) and must fit into a 512x512 square (one of the sides must be 512px and the other 512px or less).\n"
+"\n"
+"<b>about code</b>\n"
+"you can take a look at bot's code on github: https://github.com/equqe/conversion-bot\n"
+"\n"
+"<b>about project & author</b>\n"
+"this is a open-source project.\n"
+"\n"
+"if you have any ideas, you can message me on tg(@html_F5F5F5)\n"
+"OR do a commit on github to make code work and look better if you want.\n"
+"\n"
+"if bot works INCORRECTLY, feel free to message me too."
+msgstr ""
+
+#: handlers.py:102
+msgid "send the photo to remove its background!"
+msgstr ""
+
+#: handlers.py:120
+msgid "select one resolution below:"
+msgstr ""
+
+#: handlers.py:129
+msgid ""
+"okay! you chose 512*512.\n"
+"now send me a picture"
+msgstr ""
+
+#: handlers.py:134
+msgid ""
+"okay! you chose 100*100.\n"
+"now send me a picture\n"
+"\n"
+"<i>remark: results might look kinda cursed, so i recommend to crop an image to square-like form, because 100*100 is a square.\n"
+"otherwise your image will be shrank</i>"
+msgstr ""
+
+#: handlers.py:144
+msgid ""
+"okay! you chose custom size.\n"
+"now send me size in pixels. you send it in 'width height' format(e.g. 1920 1080. limits: MIN 1 1. MAX 5000 5000)"
+msgstr ""
+
+#: handlers.py:179
+msgid "you did something wrong.."
+msgstr ""
+
+#: handlers.py:181
+msgid "out of range!"
+msgstr ""
+
+#: handlers.py:183
+msgid " send the photo you want to resize"
+msgstr ""
+
+#: handlers.py:183
+msgid "the custom size is "
+msgstr ""
+
+#: handlers.py:246
+msgid "select the language:"
+msgstr ""
+
+#: handlers.py:267
+msgid ""
+"command canceled.\n"
+"you can use /help to take a look at command list"
+msgstr ""
+
+#: handlers.py:270
+msgid "no commands to cancel!"
+msgstr ""
+

@@ -1,5 +1,1 @@
-# dev journal
-<i>when i finish this i add normal readme.md instead of this one</i>
-
-- 19/12/23 still developing, need to add locale change function and finally deploy(didnt upload bot.py, handlers.py, keyboards.py, localisation.py)
- 
+# telegram bot for image conversion

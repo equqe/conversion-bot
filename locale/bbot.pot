@@ -14,35 +14,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: pygettext.py 1.5\n"
 
-
-#: bot.py:24
-msgid "get info about bot"
-msgstr ""
-
-#: bot.py:25
-msgid "to resize an image"
-msgstr ""
-
-#: bot.py:26
-msgid "to remove image background"
-msgstr ""
-
-#: bot.py:27
-msgid "change locale"
-msgstr ""
-
-#: bot.py:28
-msgid "cancel current step"
-msgstr ""
-
-#: handlers.py:53
+#: handlers.py:58
 msgid ""
 "hi!\n"
 "this is a bot that can help you with editing a picture to telegram sticker format OR editing by picking a custom resolution.\n"
 "you can create your pack with official bot @Stickers."
 msgstr ""
 
-#: handlers.py:58
+#: handlers.py:63
 msgid ""
 "<b>sticker format requirements from @Stickers:</b>\n"
 "\n"
@@ -51,7 +30,7 @@ msgid ""
 "you can take a look at command list, get a project github link and view some additional info about project with /help command."
 msgstr ""
 
-#: handlers.py:72
+#: handlers.py:80
 msgid ""
 "<b>INFO</b>\n"
 "\n"
@@ -76,21 +55,21 @@ msgid ""
 "if bot works INCORRECTLY, feel free to message me too."
 msgstr ""
 
-#: handlers.py:102
+#: handlers.py:113
 msgid "send the photo to remove its background!"
 msgstr ""
 
-#: handlers.py:120
+#: handlers.py:133
 msgid "select one resolution below:"
 msgstr ""
 
-#: handlers.py:129
+#: handlers.py:144
 msgid ""
 "okay! you chose 512*512.\n"
 "now send me a picture"
 msgstr ""
 
-#: handlers.py:134
+#: handlers.py:149
 msgid ""
 "okay! you chose 100*100.\n"
 "now send me a picture\n"
@@ -99,39 +78,39 @@ msgid ""
 "otherwise your image will be shrank</i>"
 msgstr ""
 
-#: handlers.py:144
+#: handlers.py:159
 msgid ""
 "okay! you chose custom size.\n"
 "now send me size in pixels. you send it in 'width height' format(e.g. 1920 1080. limits: MIN 1 1. MAX 5000 5000)"
 msgstr ""
 
-#: handlers.py:179
+#: handlers.py:197
 msgid "you did something wrong.."
 msgstr ""
 
-#: handlers.py:181
+#: handlers.py:199
 msgid "out of range!"
 msgstr ""
 
-#: handlers.py:183
+#: handlers.py:201
 msgid " send the photo you want to resize"
 msgstr ""
 
-#: handlers.py:183
+#: handlers.py:201
 msgid "the custom size is "
 msgstr ""
 
-#: handlers.py:246
+#: handlers.py:230
 msgid "select the language:"
 msgstr ""
 
-#: handlers.py:267
+#: handlers.py:256
 msgid ""
 "command canceled.\n"
 "you can use /help to take a look at command list"
 msgstr ""
 
-#: handlers.py:270
+#: handlers.py:259
 msgid "no commands to cancel!"
 msgstr ""
 

@@ -1,14 +1,15 @@
-from PIL import Image
-from rembg import remove
 import io
 import secrets
+from PIL import Image
+from rembg import remove
+from config import WORK_DIR
 
 
 async def resize_100(image):
     image = Image.open(io.BytesIO(image.content))
     image = image.resize((100, 100), Image.ANTIALIAS)
     image_name = secrets.token_hex(8)
-    image.save(f"photo/{image_name}.png",
+    image.save(f"{WORK_DIR}\\{image_name}.png",
                format="PNG")
     return image_name
 
@@ -34,7 +35,7 @@ async def resize_512(image):
     else:
         image = image.resize((512, 512), Image.ANTIALIAS)
     image_name = secrets.token_hex(8)
-    image.save(f"photo/{image_name}.png",
+    image.save(f"{WORK_DIR}\\{image_name}.png",
                format="PNG")
     return image_name
 
@@ -43,7 +44,7 @@ async def resize_custom(image, x_ax, y_ax):
     image = Image.open(io.BytesIO(image.content))
     image = image.resize((x_ax, y_ax), Image.ANTIALIAS)
     image_name = secrets.token_hex(8)
-    image.save(f"photo/{image_name}.png",
+    image.save(f"{WORK_DIR}\\{image_name}.png",
                format="PNG")
     return image_name
 
@@ -52,6 +53,6 @@ async def remove_bg(image):
     image = Image.open(io.BytesIO(image.content))
     output_image = remove(image)
     image_name = secrets.token_hex(8)
-    output_image.save(f"photo/{image_name}.png",
+    output_image.save(f"{WORK_DIR}\\{image_name}.png",
                       format="PNG")
     return image_name
